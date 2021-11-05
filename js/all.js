@@ -44,6 +44,7 @@ void
 
 function () {
 
+    console.log(location.pathname);
     if (location.pathname !== "/index.html") {
         return;
     }
