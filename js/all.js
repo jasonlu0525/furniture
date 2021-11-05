@@ -45,7 +45,7 @@ void
 function () {
 
     console.log(location.pathname);
-    if (location.pathname !== "/index.html") {
+    if (location.pathname !== "/furniture/index.html") {
         return;
     }
 
@@ -89,17 +89,17 @@ function () {
             console.log(error);
         })
 
-        window.addEventListener("load", function () {
-            console.log("data", data);
+    window.addEventListener("load", function () {
+        console.log("data", data);
 
-        })
+    })
 
 
     DOM({
         element: ".productSelect",
         listener: "change",
         func: function () {
-            console.log("change",data);
+            console.log("change", data);
         }
     })
 
@@ -115,7 +115,7 @@ void
 
 function () {
 
-    if (location.pathname !== "/admin.html") {
+    if (location.pathname !== "/furniture/admin.html") {
         return;
     }
     console.log("/admin.html");
