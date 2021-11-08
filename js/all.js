@@ -41,7 +41,7 @@ void
 
 function () {
 
-    console.log();
+    console.log(location.pathname);
     if (location.pathname !== "furniture/index.html") {
         return;
     }
@@ -698,10 +698,11 @@ void
 
 function () {
 
+    console.log(location.pathname);
     if (location.pathname !== "furniture/admin.html") {
         return;
     }
-
+console.log(location.pathname);
     const renderView = function ({
         DATA,
         renderActon,
