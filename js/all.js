@@ -42,7 +42,7 @@ void
 function () {
 
     console.log(location.pathname);
-    if (location.pathname !== "furniture/index.html") {
+    if (location.pathname !== "/furniture/index.html") {
         return;
     }
 
@@ -699,7 +699,7 @@ void
 function () {
 
     console.log(location.pathname);
-    if (location.pathname !== "furniture/admin.html") {
+    if (location.pathname !== "/furniture/admin.html") {
         return;
     }
 console.log(location.pathname);
