@@ -950,4 +950,18 @@ body {
   }
 }
 
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+}
+
+//相容火狐瀏覽器
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+
+.d-flex{
+  display: flex;
+}
 /*# sourceMappingURL=all.css.map */

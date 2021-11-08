@@ -807,4 +807,25 @@ body {
 .orderTableWrap::-webkit-scrollbar {
   display: none;
 }
+
+.chart{
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .chart {
+    display: block;
+  }
+}
+.c3chart{
+  width: 50%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .c3chart {
+    width:100%;
+  }
+}
+
 /*# sourceMappingURL=all.css.map */
